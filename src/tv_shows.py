@@ -9,20 +9,18 @@ import os
 
 
 def get_series_data(date):
-    url = f"http://api.tvmaze.com/schedule/web?date={date}"
+    URL = f"http://api.tvmaze.com/schedule/web?date={date}"
     
     try:
-        response = requests.get(url)
+        response = requests.get(URL)
         response.raise_for_status()
         return response.json()
     except requests.exceptions.RequestException as e:
-        print(f"\n [!] Error al obtener los datos de la fecha {date}: {e}")
+        print(colored(f"\n [!] Error al obtener los datos de la fecha {date}: {e}", "red"))
         return []
 
 
-def fetch_tv_shows_data():
-    start_date = datetime(2024, 1, 1)
-    end_date = datetime(2024, 1, 31)
+def fetch_tv_shows_data(start_date, end_date):
     print(colored(f"\n [+] Obteniendo los datos de la API... Para las fechas {start_date} hasta {end_date}", "green"))
     all_data = [
         series
@@ -35,7 +33,8 @@ def fetch_tv_shows_data():
         daily_data = get_series_data(date)
         with open(f"../json/data_{date}.json", "w") as file:
             json.dump(daily_data, file, indent=4)
-        print(f"\n [+] Escribiendo datos de la API... data_{date}.json")
+
+        print(colored(f"\n [+] Escribiendo datos de la API... data_{date}.json", "green"))
     
     return all_data
 
@@ -49,12 +48,13 @@ def load_json_to_pandas_dataframe(json_folder="../json/"):
             all_data.extend(data)
     
     df = pd.json_normalize(all_data)
-    print(f"\n [+] Generando Data Frame Pandas...")
+    print(colored(f"\n [+] Generando Data Frame Pandas...", "green"))
+
     return df
 
 
 def profile_data(df):
-    print("\n [+] Exportando profiling en formato HTML...")
+    print(colored(f"\n [+] Exportando profiling en formato HTML...", "green"))
     profile = ProfileReport(df, title="Profiling a datos del 1 de enero del 2024")
     profile.to_file("../profiling/data_profiling.html")
 
@@ -76,10 +76,8 @@ def clean_data(df):
     
     df_clean = df.drop(columns=columns_to_drop, errors='ignore')
     
-    
     # 2. Eliminación de valores atípicos 
     df_clean = df_clean[df_clean['season'] != 2024]
-
 
     # 3. Transformar columnas con datos no compatibles
     columns_to_transform = ['_embedded.show.genres', '_embedded.show.dvdPaís', '_embedded.show.schedule.days']
@@ -90,13 +88,11 @@ def clean_data(df):
     # 4. Eliminar filas con más del 80% de valores faltantes
     df_clean = df_clean.dropna(thresh=len(df_clean.columns) * 0.8)
     
-
     # 5. Rellenar valores faltantes relevantes
     columns_to_fill_median = ['runtime', 'rating.average', '_embedded.show.averageRuntime']
     for column in columns_to_fill_median:
         if column in df_clean.columns:
             df_clean[column] = df_clean[column].fillna(df_clean[column].median())
-    
     
     # 6. Eliminar duplicados
     df_clean = df_clean.drop_duplicates()
@@ -116,6 +112,7 @@ def clean_data(df):
     columns_to_drop_correlated = ['_embedded.show.network.country.name', '_embedded.show.network.country.code']
     df_clean = df_clean.drop(columns=columns_to_drop_correlated, errors='ignore')
 
+    print(colored(f"\n [+] Se limpiaron con exito los datos...", "green"))    
     return df_clean
 
 
@@ -123,7 +120,7 @@ def save_dataframe_to_parquet(df, file_path="../data/shows.parquet"):
     df.to_parquet(file_path, compression='snappy')
     
 
-def insert_data_to_db(df_clean, db_name="tv_shows.db"):
+def insert_data_to_db(df_clean, db_name):
     
     # Obtener la ruta del archivo de la base de datos desde un directorio atrás
     db_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "db", db_name))
@@ -182,18 +179,19 @@ def insert_data_to_db(df_clean, db_name="tv_shows.db"):
                 row.get('_embedded.show.webChannel.name'), row.get('_embedded.show.webChannel.country.name'),
                 row.get('_embedded.show.webChannel.country.code'), row.get('_embedded.show.webChannel.officialSite')
             ))
-        
+
         except sqlite3.Error as e:
-            print(f"\n [!] Error al insertar los datos: {e}")
+            print(colored(f"\n [!] Error al insertar los datos: {e}", "red"))
+    print(colored(f"\n [+] Se insertan con exito los datos...", "green"))
 
     # Confirmar los cambios y cerrar la conexión
     conn.commit()
     conn.close()
 
 if __name__ == "__main__":
-    all_data = fetch_tv_shows_data()
+    all_data = fetch_tv_shows_data(datetime(2024, 1, 1), datetime(2024, 1, 31))
     df = load_json_to_pandas_dataframe()
     profile_data(df)
     df_clean = clean_data(df)
     save_dataframe_to_parquet(df_clean)
-    insert_data_to_db(df_clean)
+    insert_data_to_db(df_clean, "tv_shows.db")
