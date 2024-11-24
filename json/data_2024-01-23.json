@@ -5495,14 +5495,14 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/469/1174151.jpg"
                 },
                 "summary": "<p>Pod Save America is a no-bullshit conversation about politics hosted by former Obama aides Jon Favreau, Jon Lovett, Dan Pfeiffer, and Tommy Vietor. It cuts through the noise to break down the week's news and helps people figure out what matters and how they can help. They're regularly joined by journalists, activists, politicians, entertainers, and world leaders. You can listen to new episodes twice a week on Tuesdays and Thursdays.</p>",
-                "updated": 1730333374,
+                "updated": 1732484517,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/39114"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3041006",
-                        "name": "Kamala's Closing Argument (feat. AOC)"
+                        "href": "https://api.tvmaze.com/episodes/3066341",
+                        "name": "Trump's YOLO Cabinet"
                     }
                 }
             }
