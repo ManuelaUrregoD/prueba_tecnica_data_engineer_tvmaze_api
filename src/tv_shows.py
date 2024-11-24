@@ -117,3 +117,83 @@ def clean_data(df):
     df_clean = df_clean.drop(columns=columns_to_drop_correlated, errors='ignore')
 
     return df_clean
+
+
+def save_dataframe_to_parquet(df, file_path="../data/shows.parquet"):
+    df.to_parquet(file_path, compression='snappy')
+    
+
+def insert_data_to_db(df_clean, db_name="tv_shows.db"):
+    
+    # Obtener la ruta del archivo de la base de datos desde un directorio atrás
+    db_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "db", db_name))
+
+    # Conectar a la base de datos
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+    
+    # Insertar datos en la tabla Shows
+    for _, row in df_clean.iterrows():
+        try:
+            # Insertar datos en Shows
+            cursor.execute('''
+                INSERT OR IGNORE INTO Shows (
+                    id, url, name, genres, status, runtime, averageRuntime, premiered, ended, 
+                    officialSite, language, type, webChannel_id
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (
+                row.get('_embedded.show.id'), row.get('_embedded.show.url'), row.get('_embedded.show.name'),
+                row.get('_embedded.show.genres'), row.get('_embedded.show.status'), 
+                row.get('_embedded.show.runtime'), row.get('_embedded.show.averageRuntime'), 
+                row.get('_embedded.show.premiered'), row.get('_embedded.show.ended'),
+                row.get('_embedded.show.officialSite'), row.get('_embedded.show.language'), 
+                row.get('_embedded.show.type'), row.get('_embedded.show.webChannel.id')
+            ))
+            
+            # Insertar datos en Episodes
+            cursor.execute('''
+                INSERT OR IGNORE INTO Episodes (
+                    id, show_id, url, name, season, number, type, airdate, airtime, 
+                    airstamp, runtime
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ''', (
+                row.get('id'), row.get('_embedded.show.id'), row.get('url'), row.get('name'),
+                row.get('season'), row.get('number'), row.get('type'), row.get('airdate'),
+                row.get('airtime'), row.get('airstamp'), row.get('runtime')
+            ))
+
+            # Insertar datos en Networks
+            cursor.execute('''
+                INSERT OR IGNORE INTO Networks (
+                    id, name, country_name, country_code
+                ) VALUES (?, ?, ?, ?)
+            ''', (
+                row.get('_embedded.show.network.id'), row.get('_embedded.show.network.name'),
+                row.get('_embedded.show.network.country.name'), row.get('_embedded.show.network.country.code')
+            ))
+            
+            # Insertar datos en WebChannels
+            cursor.execute('''
+                INSERT OR IGNORE INTO WebChannels (
+                    id, network_id, name, country_name, country_code, officialSite
+                ) VALUES (?, ?, ?, ?, ?, ?)
+            ''', (
+                row.get('_embedded.show.webChannel.id'), row.get('_embedded.show.network.id'),
+                row.get('_embedded.show.webChannel.name'), row.get('_embedded.show.webChannel.country.name'),
+                row.get('_embedded.show.webChannel.country.code'), row.get('_embedded.show.webChannel.officialSite')
+            ))
+        
+        except sqlite3.Error as e:
+            print(f"\n [!] Error al insertar los datos: {e}")
+
+    # Confirmar los cambios y cerrar la conexión
+    conn.commit()
+    conn.close()
+
+if __name__ == "__main__":
+    all_data = fetch_tv_shows_data()
+    df = load_json_to_pandas_dataframe()
+    profile_data(df)
+    df_clean = clean_data(df)
+    save_dataframe_to_parquet(df_clean)
+    insert_data_to_db(df_clean)
