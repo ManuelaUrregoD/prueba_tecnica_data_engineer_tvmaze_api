@@ -137,7 +137,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 47,
+                "weight": 56,
                 "network": null,
                 "webChannel": {
                     "id": 569,
@@ -226,7 +226,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 80,
+                "weight": 78,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -316,7 +316,7 @@
                 "rating": {
                     "average": 6
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -492,7 +492,7 @@
                 "rating": {
                     "average": 8
                 },
-                "weight": 75,
+                "weight": 78,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -577,7 +577,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 69,
+                "weight": 70,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1116,7 +1116,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 0,
+                "weight": 2,
                 "network": null,
                 "webChannel": {
                     "id": 135,
@@ -1294,7 +1294,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1382,7 +1382,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1470,7 +1470,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1558,7 +1558,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1646,7 +1646,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1734,7 +1734,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1822,7 +1822,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1911,7 +1911,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 65,
+                "weight": 72,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1999,7 +1999,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 51,
@@ -3733,7 +3733,7 @@
                 "rating": {
                     "average": 7.1
                 },
-                "weight": 93,
+                "weight": 92,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -4730,7 +4730,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 46,
+                "weight": 76,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -4833,12 +4833,12 @@
                         "href": "https://api.tvmaze.com/shows/42383"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3037366",
-                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Sendai \u2013 Day 12"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3037367",
                         "name": "Stardom 14th Goddesses Of Stardom Tag League in Koriyama \u2013 Day 13"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3037369",
+                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Shimotsuke \u2013 Day 14"
                     }
                 }
             }
@@ -5141,7 +5141,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 33,
+                "weight": 39,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -5648,7 +5648,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -5987,7 +5987,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 164,
@@ -7104,7 +7104,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 16,
+                "weight": 12,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -7190,7 +7190,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 31,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -7276,7 +7276,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 31,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -7900,7 +7900,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 90,
+                "weight": 93,
                 "network": null,
                 "webChannel": {
                     "id": 347,

@@ -152,7 +152,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/522/1307271.jpg"
                 },
                 "summary": "<p>What if we could see the universe from a different perspective? If we weren't limited by Earth's gravity and could just fly through space and see planets up close? Well... we'll probably freak out when we notice they have a face!</p>",
-                "updated": 1731919498,
+                "updated": 1732443157,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/77713"
@@ -160,6 +160,10 @@
                     "previousepisode": {
                         "href": "https://api.tvmaze.com/episodes/3058584",
                         "name": "What If We Replace Jupiter? - Part 2"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3065788",
+                        "name": "What If We Replace Jupiter? - Part 3"
                     }
                 }
             }
@@ -218,7 +222,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 80,
+                "weight": 78,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -308,7 +312,7 @@
                 "rating": {
                     "average": 6
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -484,7 +488,7 @@
                 "rating": {
                     "average": 8
                 },
-                "weight": 75,
+                "weight": 78,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -569,7 +573,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 69,
+                "weight": 70,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1201,7 +1205,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 0,
+                "weight": 2,
                 "network": null,
                 "webChannel": {
                     "id": 135,
@@ -1559,7 +1563,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 65,
+                "weight": 71,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1648,7 +1652,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 65,
+                "weight": 72,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1736,7 +1740,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 51,
@@ -3097,7 +3101,7 @@
                 "rating": {
                     "average": 7.1
                 },
-                "weight": 93,
+                "weight": 92,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -3187,7 +3191,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 83,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 160,
@@ -3216,12 +3220,12 @@
                         "href": "https://api.tvmaze.com/shows/24963"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3042863",
-                        "name": "World Tag League 2024 Day 4"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3042864",
                         "name": "World Tag League 2024 Day 5"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3042865",
+                        "name": "World Tag League 2024 Day 6"
                     }
                 }
             }
@@ -4396,12 +4400,12 @@
                         "href": "https://api.tvmaze.com/shows/42383"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3037366",
-                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Sendai \u2013 Day 12"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3037367",
                         "name": "Stardom 14th Goddesses Of Stardom Tag League in Koriyama \u2013 Day 13"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3037369",
+                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Shimotsuke \u2013 Day 14"
                     }
                 }
             }
@@ -4628,7 +4632,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 33,
+                "weight": 39,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -5499,7 +5503,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -6109,7 +6113,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 164,
@@ -7416,7 +7420,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 16,
+                "weight": 12,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -7711,14 +7715,14 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/65/164161.jpg"
                 },
                 "summary": "<p><b>Atop the Fourth Wall</b> is a comic book review show, hosted by Lewis \"Linkara\" Lovhaug. The show specializes in reviewing really bad comic books.</p>",
-                "updated": 1730773015,
+                "updated": 1732444414,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/18971"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/2750664",
-                        "name": "Dark Knights: Death Metal"
+                        "href": "https://api.tvmaze.com/episodes/3065824",
+                        "name": "Transformers (Skybound) #1-6"
                     }
                 }
             }

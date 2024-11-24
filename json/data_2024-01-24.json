@@ -300,7 +300,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 58,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -388,7 +388,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 76,
+                "weight": 72,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1402,7 +1402,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 78,
+                "weight": 82,
                 "network": null,
                 "webChannel": {
                     "id": 538,
@@ -1492,7 +1492,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 78,
+                "weight": 82,
                 "network": null,
                 "webChannel": {
                     "id": 538,
@@ -1760,7 +1760,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 9,
+                "weight": 41,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1854,7 +1854,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1948,7 +1948,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -4488,7 +4488,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 8,
+                "weight": 11,
                 "network": {
                     "id": 308,
                     "name": "\u0422\u041d\u0422",
@@ -4577,7 +4577,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 8,
+                "weight": 11,
                 "network": {
                     "id": 308,
                     "name": "\u0422\u041d\u0422",
@@ -4667,7 +4667,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 83,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 160,
@@ -4696,12 +4696,12 @@
                         "href": "https://api.tvmaze.com/shows/24963"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3042863",
-                        "name": "World Tag League 2024 Day 4"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3042864",
                         "name": "World Tag League 2024 Day 5"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3042865",
+                        "name": "World Tag League 2024 Day 6"
                     }
                 }
             }
@@ -4767,7 +4767,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 64,
+                "weight": 65,
                 "network": {
                     "id": 790,
                     "name": "\u041f\u044f\u0442\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
@@ -6607,7 +6607,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 95,
+                "weight": 96,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -6694,7 +6694,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 95,
+                "weight": 96,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -6781,7 +6781,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 95,
+                "weight": 96,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -6868,7 +6868,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 95,
+                "weight": 96,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -6955,7 +6955,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 95,
+                "weight": 96,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -7042,7 +7042,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 95,
+                "weight": 96,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -8301,7 +8301,7 @@
                 "rating": {
                     "average": 5.4
                 },
-                "weight": 79,
+                "weight": 44,
                 "network": null,
                 "webChannel": {
                     "id": 251,
@@ -8386,7 +8386,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 49,
+                "weight": 68,
                 "network": null,
                 "webChannel": {
                     "id": 251,
@@ -8552,7 +8552,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 68,
+                "weight": 69,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -8643,7 +8643,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -8970,7 +8970,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 41,
+                "weight": 42,
                 "network": null,
                 "webChannel": {
                     "id": 397,
@@ -9925,7 +9925,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 8,
+                "weight": 37,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -10006,7 +10006,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 8,
+                "weight": 37,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -10089,7 +10089,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 44,
+                "weight": 73,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -12551,7 +12551,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 73,
+                "weight": 72,
                 "network": {
                     "id": 205,
                     "name": "NFL Network",
@@ -12836,7 +12836,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 84,
+                "weight": 82,
                 "network": {
                     "id": 132,
                     "name": "Tokyo MX",
@@ -13203,7 +13203,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 54,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -14621,7 +14621,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 96,
+                "weight": 95,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -14968,7 +14968,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 85,
+                "weight": 86,
                 "network": null,
                 "webChannel": {
                     "id": 311,
@@ -15401,7 +15401,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 73,
+                "weight": 79,
                 "network": {
                     "id": 42,
                     "name": "National Geographic",
@@ -15479,19 +15479,15 @@
                 "type": "Reality",
                 "language": "Norwegian",
                 "genres": [],
-                "status": "To Be Determined",
+                "status": "Running",
                 "runtime": null,
                 "averageRuntime": 22,
                 "premiered": "2021-03-08",
                 "ended": null,
                 "officialSite": "https://play.tv2.no/programmer/underholdning/alle-elsker-david",
                 "schedule": {
-                    "time": "03:00",
-                    "days": [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday"
-                    ]
+                    "time": "",
+                    "days": []
                 },
                 "rating": {
                     "average": null
@@ -15519,7 +15515,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/517/1293690.jpg"
                 },
                 "summary": "<p>We follow manager David Eriksen and his charming but untraditional family. In David's new company, the pace is high and the drop is great.</p>",
-                "updated": 1714772507,
+                "updated": 1732468760,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/54476"

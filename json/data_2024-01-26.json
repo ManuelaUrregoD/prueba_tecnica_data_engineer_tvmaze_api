@@ -47,7 +47,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 68,
+                "weight": 62,
                 "network": null,
                 "webChannel": {
                     "id": 56,
@@ -394,7 +394,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 85,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -570,7 +570,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 65,
+                "weight": 64,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -753,7 +753,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 53,
+                "weight": 23,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -841,7 +841,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 82,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2225,7 +2225,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2319,7 +2319,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2413,7 +2413,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2507,7 +2507,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2601,7 +2601,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2695,7 +2695,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -13736,7 +13736,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 17,
                 "network": null,
                 "webChannel": {
                     "id": 438,
@@ -13822,7 +13822,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 62,
+                "weight": 64,
                 "network": null,
                 "webChannel": {
                     "id": 439,
@@ -14370,7 +14370,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 58,
                 "network": null,
                 "webChannel": {
                     "id": 327,
@@ -14456,7 +14456,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 58,
                 "network": null,
                 "webChannel": {
                     "id": 327,
@@ -14633,7 +14633,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 76,
+                "weight": 41,
                 "network": null,
                 "webChannel": {
                     "id": 12,
@@ -15857,7 +15857,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 17,
+                "weight": 48,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -15939,7 +15939,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 440,
@@ -16032,7 +16032,7 @@
                 "rating": {
                     "average": 5.4
                 },
-                "weight": 79,
+                "weight": 44,
                 "network": null,
                 "webChannel": {
                     "id": 251,
@@ -16196,7 +16196,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16277,7 +16277,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16358,7 +16358,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16439,7 +16439,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16520,7 +16520,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16601,7 +16601,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16682,7 +16682,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16763,7 +16763,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16844,7 +16844,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -16925,7 +16925,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -17006,7 +17006,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -17087,7 +17087,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 310,
@@ -17170,7 +17170,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 81,
+                "weight": 82,
                 "network": null,
                 "webChannel": {
                     "id": 329,
@@ -17257,7 +17257,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -17356,7 +17356,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/445/1114662.jpg"
                 },
                 "summary": "<p>Online short-form series with host Seth correcting the week's stories and arguing with YouTube commenters.</p>",
-                "updated": 1732265203,
+                "updated": 1732443495,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/66849"
@@ -17364,6 +17364,10 @@
                     "previousepisode": {
                         "href": "https://api.tvmaze.com/episodes/3064550",
                         "name": "Week of Monday, November 18"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3065812",
+                        "name": "Week of Monday, November 25"
                     }
                 }
             }
@@ -17656,7 +17660,7 @@
                 "rating": {
                     "average": 5.5
                 },
-                "weight": 40,
+                "weight": 66,
                 "network": null,
                 "webChannel": {
                     "id": 67,
@@ -17819,7 +17823,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 41,
+                "weight": 42,
                 "network": null,
                 "webChannel": {
                     "id": 397,
@@ -20318,7 +20322,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 42,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 67,
@@ -22019,7 +22023,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 84,
+                "weight": 85,
                 "network": {
                     "id": 1039,
                     "name": "Disney Junior",
@@ -22107,7 +22111,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 84,
+                "weight": 85,
                 "network": {
                     "id": 1039,
                     "name": "Disney Junior",
@@ -22200,7 +22204,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 61,
+                "weight": 67,
                 "network": null,
                 "webChannel": {
                     "id": 464,
@@ -22461,7 +22465,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 78,
+                "weight": 79,
                 "network": null,
                 "webChannel": {
                     "id": 109,
@@ -22550,7 +22554,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 78,
+                "weight": 79,
                 "network": null,
                 "webChannel": {
                     "id": 109,
@@ -23753,7 +23757,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 54,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -23844,7 +23848,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 76,
+                "weight": 78,
                 "network": null,
                 "webChannel": {
                     "id": 311,
@@ -24473,7 +24477,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/29/73158.jpg"
                 },
                 "summary": null,
-                "updated": 1729934053,
+                "updated": 1732458856,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/8035"
@@ -24543,7 +24547,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 74,
+                "weight": 77,
                 "network": null,
                 "webChannel": {
                     "id": 238,
@@ -24736,7 +24740,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 63,
+                "weight": 68,
                 "network": null,
                 "webChannel": {
                     "id": 190,
@@ -24825,7 +24829,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 64,
+                "weight": 75,
                 "network": null,
                 "webChannel": {
                     "id": 238,
@@ -25009,7 +25013,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 91,
+                "weight": 90,
                 "network": {
                     "id": 1039,
                     "name": "Disney Junior",
@@ -25110,7 +25114,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 91,
+                "weight": 90,
                 "network": {
                     "id": 1039,
                     "name": "Disney Junior",
@@ -25295,7 +25299,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 96,
+                "weight": 95,
                 "network": null,
                 "webChannel": {
                     "id": 26,

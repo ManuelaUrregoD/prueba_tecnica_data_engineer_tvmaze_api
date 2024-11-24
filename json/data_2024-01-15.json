@@ -232,7 +232,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 69,
+                "weight": 74,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -321,7 +321,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 65,
+                "weight": 64,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -504,7 +504,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 53,
+                "weight": 23,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -684,7 +684,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 47,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1223,7 +1223,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 23,
+                "weight": 27,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1494,7 +1494,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1588,7 +1588,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -5035,7 +5035,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 64,
+                "weight": 65,
                 "network": {
                     "id": 790,
                     "name": "\u041f\u044f\u0442\u044b\u0439 \u043a\u0430\u043d\u0430\u043b",
@@ -6861,7 +6861,7 @@
                 "rating": {
                     "average": 7.9
                 },
-                "weight": 84,
+                "weight": 85,
                 "network": {
                     "id": 280,
                     "name": "tvN",
@@ -7716,7 +7716,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 31,
+                "weight": 32,
                 "network": null,
                 "webChannel": {
                     "id": 122,
@@ -7889,7 +7889,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -8786,7 +8786,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 35,
+                "weight": 41,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -12133,7 +12133,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 31,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -12219,7 +12219,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 31,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -12305,7 +12305,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 31,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -12391,7 +12391,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 26,
+                "weight": 31,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -12479,7 +12479,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 54,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -13732,7 +13732,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 84,
+                "weight": 86,
                 "network": null,
                 "webChannel": {
                     "id": 311,
@@ -14096,7 +14096,7 @@
                 "rating": {
                     "average": 6.6
                 },
-                "weight": 90,
+                "weight": 88,
                 "network": {
                     "id": 90,
                     "name": "Magnolia Network",
@@ -14165,19 +14165,15 @@
                 "type": "Reality",
                 "language": "Norwegian",
                 "genres": [],
-                "status": "To Be Determined",
+                "status": "Running",
                 "runtime": null,
                 "averageRuntime": 22,
                 "premiered": "2021-03-08",
                 "ended": null,
                 "officialSite": "https://play.tv2.no/programmer/underholdning/alle-elsker-david",
                 "schedule": {
-                    "time": "03:00",
-                    "days": [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday"
-                    ]
+                    "time": "",
+                    "days": []
                 },
                 "rating": {
                     "average": null
@@ -14205,7 +14201,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/517/1293690.jpg"
                 },
                 "summary": "<p>We follow manager David Eriksen and his charming but untraditional family. In David's new company, the pace is high and the drop is great.</p>",
-                "updated": 1714772507,
+                "updated": 1732468760,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/54476"
