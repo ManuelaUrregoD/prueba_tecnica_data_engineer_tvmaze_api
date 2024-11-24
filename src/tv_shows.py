@@ -248,6 +248,59 @@ def insert_data_to_db(df_clean, db_name):
     conn.commit()
     conn.close()
 
+
+def execute_sql_queries(db_name):
+
+    # Obtener la ruta del archivo de la base de datos desde un directorio atrás
+    db_path = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "db", db_name))
+
+    # Conectar a la base de datos
+    conn = sqlite3.connect(db_path)
+    cursor = conn.cursor()
+
+    try:
+        # Consulta para obtener el runtime promedio de todos los shows del mes
+        cursor.execute('''
+            SELECT AVG(runtime) AS averageRuntime
+            FROM shows
+            WHERE premiered BETWEEN '2024-01-01' AND '2024-01-31';
+        ''')
+        average_runtime = cursor.fetchone()[0]
+        print(colored(f"\n [*] Runtime promedio de los shows en enero 2024: {average_runtime}", "yellow"))
+
+        # Consulta para el conteo de shows por género
+        cursor.execute('''
+            SELECT g.name AS genre, COUNT(s.id) AS show_count
+            FROM genres g
+            JOIN show_genre sg ON g.id = sg.genre_id
+            JOIN shows s ON sg.show_id = s.id
+            WHERE s.premiered BETWEEN '2024-01-01' AND '2024-01-31'
+            GROUP BY g.name
+            ORDER BY show_count DESC;
+        ''')
+        genres_count = cursor.fetchall()
+        print(colored("\n [*] Conteo de shows de TV por género:", "yellow"))
+        for genre, count in genres_count:
+            print(colored(f"  - {genre}: {count}", "yellow"))
+
+        # Consulta para listar los dominios únicos del sitio oficial de los shows
+        cursor.execute('''
+            SELECT DISTINCT
+                SUBSTR(official_site, INSTR(official_site, '//') + 2, INSTR(SUBSTR(official_site, INSTR(official_site, '//') + 2), '/') - 1) AS domain
+            FROM shows
+            WHERE official_site IS NOT NULL AND premiered BETWEEN '2024-01-01' AND '2024-01-31';
+        ''')
+        unique_domains = cursor.fetchall()
+        print(colored("\n [*] Dominios únicos del sitio oficial de los shows en enero 2024:", "yellow"))
+        for domain in unique_domains:
+            print(colored(f"  - {domain[0]}", "yellow"))
+
+    except sqlite3.Error as e:
+        print(colored(f"\n [!] Error al ejecutar las consultas: {e}", "red"))
+    finally:
+        # Cerrar la conexión
+        conn.close()
+
 if __name__ == "__main__":
     all_data = fetch_tv_shows_data(datetime(2024, 1, 1), datetime(2024, 1, 31))
     df = load_json_to_pandas_dataframe()
@@ -255,3 +308,4 @@ if __name__ == "__main__":
     df_clean = clean_data(df)
     save_dataframe_to_parquet(df_clean)
     insert_data_to_db(df_clean, "tv_shows.db")
+    execute_sql_queries("tv_shows.db")

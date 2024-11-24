@@ -23,6 +23,8 @@ El proyecto tiene la siguiente estructura de directorios:
 - `profiling/`: Archivos del informe de perfilado de datos en formato HTML.
 - `src/`: Scripts de Python desarrollados para el proyecto.
 - `venv/`: Entorno virtual de Python.
+- requirements.txt: Archivo que contiene las dependencias y librerías necesarias para el proyecto.
+
 
 ## Instalación y Ejecución
 
@@ -102,11 +104,19 @@ El código principal se encuentra en el archivo `tv_shows.py` dentro de la carpe
 
 6. **Inserción en la Base de Datos SQLite**: Los datos se insertan en una base de datos SQLite con varias tablas, y el archivo de la base de datos se guarda en la carpeta `db/`.
 
+7. **Consultas en la Base de Datos SQLite**: Se realizan consultas sobre la base de datos para extraer información relevante. 
 
 ## Análisis del Perfilado de Datos
 
 Se realizó un perfilado de datos utilizando la librería `ydata_profiling` para entender mejor la calidad y estructura de los datos obtenidos. El informe generado incluye estadísticas descriptivas, distribuciones de datos y correlaciones entre columnas. El archivo con el informe está disponible en la carpeta `profiling/` como `data_profiling.html`.
 
+## Consultas en la base de Datos
+
+Se realizan tres consultas a la base de datos SQLite
+
+- Promedio del Runtime: Calcula el runtime promedio de todos los shows emitidos en enero de 2024.
+- Conteo de Shows por Género: Cuenta la cantidad de shows agrupados por género para los shows emitidos en enero de 2024.
+- Dominios Únicos del Sitio Oficial: Obtiene una lista de dominios únicos de los sitios oficiales de los shows emitidos en enero de 2024.
 
 ## Modelo de Datos
 
