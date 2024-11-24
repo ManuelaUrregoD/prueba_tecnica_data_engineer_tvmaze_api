@@ -23,6 +23,8 @@ El proyecto tiene la siguiente estructura de directorios:
 - `profiling/`: Archivos del informe de perfilado de datos en formato HTML.
 - `src/`: Scripts de Python desarrollados para el proyecto.
 - `venv/`: Entorno virtual de Python.
+- requirements.txt: Archivo que contiene las dependencias y librerías necesarias para el proyecto.
+
 
 ## Instalación y Ejecución
 
