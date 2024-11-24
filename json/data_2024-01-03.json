@@ -57,7 +57,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 60,
                 "network": null,
                 "webChannel": {
                     "id": 366,
@@ -319,7 +319,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 32,
                 "network": null,
                 "webChannel": {
                     "id": 366,
@@ -403,7 +403,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 32,
                 "network": null,
                 "webChannel": {
                     "id": 366,
@@ -492,7 +492,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 58,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -580,7 +580,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 76,
+                "weight": 72,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1295,7 +1295,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 9,
+                "weight": 41,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1389,7 +1389,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 30,
+                "weight": 9,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -3415,7 +3415,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -3509,7 +3509,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -4634,12 +4634,12 @@
                         "href": "https://api.tvmaze.com/shows/42383"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3037366",
-                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Sendai \u2013 Day 12"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3037367",
                         "name": "Stardom 14th Goddesses Of Stardom Tag League in Koriyama \u2013 Day 13"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3037369",
+                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Shimotsuke \u2013 Day 14"
                     }
                 }
             }
@@ -4787,7 +4787,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 49,
+                "weight": 68,
                 "network": null,
                 "webChannel": {
                     "id": 251,
@@ -4870,7 +4870,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 58,
+                "weight": 63,
                 "network": null,
                 "webChannel": {
                     "id": 195,
@@ -5036,7 +5036,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 16,
+                "weight": 17,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -5116,7 +5116,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 16,
+                "weight": 17,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -5203,7 +5203,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -7102,7 +7102,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -7560,7 +7560,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 34,
+                "weight": 66,
                 "network": null,
                 "webChannel": {
                     "id": 83,
@@ -7652,7 +7652,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 54,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -8370,7 +8370,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 96,
+                "weight": 95,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -8459,7 +8459,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 96,
+                "weight": 95,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -8548,7 +8548,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 96,
+                "weight": 95,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -8635,7 +8635,7 @@
                 "rating": {
                     "average": 4.8
                 },
-                "weight": 77,
+                "weight": 78,
                 "network": {
                     "id": 426,
                     "name": "RTL",
@@ -9397,19 +9397,15 @@
                 "type": "Reality",
                 "language": "Norwegian",
                 "genres": [],
-                "status": "To Be Determined",
+                "status": "Running",
                 "runtime": null,
                 "averageRuntime": 22,
                 "premiered": "2021-03-08",
                 "ended": null,
                 "officialSite": "https://play.tv2.no/programmer/underholdning/alle-elsker-david",
                 "schedule": {
-                    "time": "03:00",
-                    "days": [
-                        "Monday",
-                        "Tuesday",
-                        "Wednesday"
-                    ]
+                    "time": "",
+                    "days": []
                 },
                 "rating": {
                     "average": null
@@ -9437,7 +9433,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/517/1293690.jpg"
                 },
                 "summary": "<p>We follow manager David Eriksen and his charming but untraditional family. In David's new company, the pace is high and the drop is great.</p>",
-                "updated": 1714772507,
+                "updated": 1732468760,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/54476"

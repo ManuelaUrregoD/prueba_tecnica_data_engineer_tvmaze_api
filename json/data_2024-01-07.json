@@ -144,7 +144,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 60,
                 "network": null,
                 "webChannel": {
                     "id": 366,
@@ -588,7 +588,7 @@
                 "rating": {
                     "average": 7.1
                 },
-                "weight": 85,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -771,7 +771,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 58,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1308,7 +1308,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 23,
+                "weight": 27,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1396,7 +1396,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 51,
@@ -1485,7 +1485,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 9,
+                "weight": 41,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -1855,7 +1855,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2809,12 +2809,12 @@
                         "href": "https://api.tvmaze.com/shows/42383"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3037366",
-                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Sendai \u2013 Day 12"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3037367",
                         "name": "Stardom 14th Goddesses Of Stardom Tag League in Koriyama \u2013 Day 13"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3037369",
+                        "name": "Stardom 14th Goddesses Of Stardom Tag League in Shimotsuke \u2013 Day 14"
                     }
                 }
             }
@@ -2964,7 +2964,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 72,
+                "weight": 70,
                 "network": null,
                 "webChannel": {
                     "id": 329,
@@ -3050,7 +3050,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 67,
@@ -4082,7 +4082,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -4674,7 +4674,7 @@
                 "rating": {
                     "average": 5.8
                 },
-                "weight": 46,
+                "weight": 73,
                 "network": null,
                 "webChannel": {
                     "id": 155,
@@ -4761,7 +4761,7 @@
                 "rating": {
                     "average": 7.2
                 },
-                "weight": 92,
+                "weight": 93,
                 "network": {
                     "id": 2,
                     "name": "CBS",

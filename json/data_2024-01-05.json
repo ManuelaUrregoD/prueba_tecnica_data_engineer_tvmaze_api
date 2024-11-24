@@ -47,7 +47,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 68,
+                "weight": 62,
                 "network": null,
                 "webChannel": {
                     "id": 56,
@@ -141,7 +141,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 60,
                 "network": null,
                 "webChannel": {
                     "id": 366,
@@ -575,7 +575,7 @@
                 "rating": {
                     "average": 7.4
                 },
-                "weight": 85,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -751,7 +751,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 65,
+                "weight": 64,
                 "network": null,
                 "webChannel": {
                     "id": 104,
@@ -934,7 +934,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 53,
+                "weight": 23,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -1022,7 +1022,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 82,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2732,7 +2732,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -2826,7 +2826,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 25,
+                "weight": 26,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -4503,7 +4503,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -4591,7 +4591,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -4679,7 +4679,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -4767,7 +4767,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -4855,7 +4855,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -4943,7 +4943,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -5031,7 +5031,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -5119,7 +5119,7 @@
                 "rating": {
                     "average": 7.3
                 },
-                "weight": 86,
+                "weight": 85,
                 "network": null,
                 "webChannel": {
                     "id": 26,
@@ -5209,7 +5209,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 83,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 160,
@@ -5238,12 +5238,12 @@
                         "href": "https://api.tvmaze.com/shows/24963"
                     },
                     "previousepisode": {
-                        "href": "https://api.tvmaze.com/episodes/3042863",
-                        "name": "World Tag League 2024 Day 4"
-                    },
-                    "nextepisode": {
                         "href": "https://api.tvmaze.com/episodes/3042864",
                         "name": "World Tag League 2024 Day 5"
+                    },
+                    "nextepisode": {
+                        "href": "https://api.tvmaze.com/episodes/3042865",
+                        "name": "World Tag League 2024 Day 6"
                     }
                 }
             }
@@ -5299,7 +5299,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 62,
+                "weight": 64,
                 "network": null,
                 "webChannel": {
                     "id": 439,
@@ -5673,7 +5673,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 58,
                 "network": null,
                 "webChannel": {
                     "id": 327,
@@ -5759,7 +5759,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 59,
+                "weight": 58,
                 "network": null,
                 "webChannel": {
                     "id": 327,
@@ -5849,7 +5849,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 76,
+                "weight": 41,
                 "network": null,
                 "webChannel": {
                     "id": 12,
@@ -6906,7 +6906,7 @@
                 "rating": {
                     "average": 8
                 },
-                "weight": 88,
+                "weight": 74,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -6991,7 +6991,7 @@
                 "rating": {
                     "average": 8
                 },
-                "weight": 88,
+                "weight": 74,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -7076,7 +7076,7 @@
                 "rating": {
                     "average": 8
                 },
-                "weight": 88,
+                "weight": 74,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -7331,7 +7331,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 80,
+                "weight": 81,
                 "network": null,
                 "webChannel": {
                     "id": 440,
@@ -7670,7 +7670,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 87,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 107,
@@ -7757,7 +7757,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 87,
+                "weight": 84,
                 "network": null,
                 "webChannel": {
                     "id": 107,
@@ -7923,7 +7923,7 @@
                 "rating": {
                     "average": 6.6
                 },
-                "weight": 91,
+                "weight": 92,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -8008,7 +8008,7 @@
                 "rating": {
                     "average": 6.6
                 },
-                "weight": 91,
+                "weight": 92,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -8093,7 +8093,7 @@
                 "rating": {
                     "average": 6.6
                 },
-                "weight": 91,
+                "weight": 92,
                 "network": null,
                 "webChannel": {
                     "id": 1,
@@ -8180,7 +8180,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 52,
+                "weight": 51,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -8416,7 +8416,7 @@
                 "rating": {
                     "average": 5.5
                 },
-                "weight": 40,
+                "weight": 66,
                 "network": null,
                 "webChannel": {
                     "id": 67,
@@ -8762,7 +8762,7 @@
                 "rating": {
                     "average": 7
                 },
-                "weight": 37,
+                "weight": 34,
                 "network": null,
                 "webChannel": {
                     "id": 216,
@@ -9185,7 +9185,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 42,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 67,
@@ -9265,7 +9265,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 15,
+                "weight": 12,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -9345,7 +9345,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 15,
+                "weight": 12,
                 "network": null,
                 "webChannel": {
                     "id": 3,
@@ -11077,7 +11077,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 38,
+                "weight": 2,
                 "network": null,
                 "webChannel": {
                     "id": 21,
@@ -11250,7 +11250,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 10,
+                "weight": 11,
                 "network": null,
                 "webChannel": {
                     "id": 118,
@@ -11435,7 +11435,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 84,
+                "weight": 85,
                 "network": {
                     "id": 1039,
                     "name": "Disney Junior",
@@ -11523,7 +11523,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 84,
+                "weight": 85,
                 "network": {
                     "id": 1039,
                     "name": "Disney Junior",
@@ -11616,7 +11616,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 61,
+                "weight": 67,
                 "network": null,
                 "webChannel": {
                     "id": 464,
@@ -11985,7 +11985,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 54,
+                "weight": 53,
                 "network": null,
                 "webChannel": {
                     "id": 11,
@@ -12073,7 +12073,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 76,
+                "weight": 78,
                 "network": null,
                 "webChannel": {
                     "id": 311,
@@ -12702,7 +12702,7 @@
                     "original": "https://static.tvmaze.com/uploads/images/original_untouched/29/73158.jpg"
                 },
                 "summary": null,
-                "updated": 1729934053,
+                "updated": 1732458856,
                 "_links": {
                     "self": {
                         "href": "https://api.tvmaze.com/shows/8035"
@@ -12872,7 +12872,7 @@
                 "rating": {
                     "average": null
                 },
-                "weight": 63,
+                "weight": 68,
                 "network": null,
                 "webChannel": {
                     "id": 190,
@@ -12961,7 +12961,7 @@
                 "rating": {
                     "average": 7.8
                 },
-                "weight": 64,
+                "weight": 75,
                 "network": null,
                 "webChannel": {
                     "id": 238,
