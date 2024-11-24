@@ -112,10 +112,13 @@ Se realizó un perfilado de datos utilizando la librería `ydata_profiling` para
 
 El modelo de datos fue diseñado para almacenar la información de los programas de televisión y sus episodios, así como de las redes de emisión y canales web asociados. La estructura incluye las siguientes tablas:
 
-- **Shows**: Información general de los shows.
-- **Episodes**: Información de los episodios de cada show.
-- **Networks**: Información de las redes de televisión.
-- **WebChannels**: Información de los canales web.
+- **country**: Almacena información sobre los países, incluyendo código, nombre y zona horaria. 
+- **genres**: Contiene la lista de los diferentes géneros de los programas de televisión.
+- **networks**: Almacena la información de las redes de televisión, como nombre, sitio oficial y el país asociado.
+- **WebChannels**: Almacena la información de los canales web, como nombre, sitio oficial y el país asociado.
+- **shows**: Contiene información general de los programas de televisión, como nombre, idioma, estatus, fecha de estreno, entre otros datos. Además, se relaciona con los canales web y redes de televisión.
+- **episodes**: Almacena la información de los episodios de cada programa, incluyendo nombre, temporada, fecha y hora de emisión, duración, entre otros detalles.
+- **showGenre**: Relaciona los programas de televisión con sus géneros correspondientes.
 
 Una imagen del modelo de datos se encuentra en la carpeta `model/`.
 
