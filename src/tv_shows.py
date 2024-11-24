@@ -51,4 +51,9 @@ def load_json_to_pandas_dataframe(json_folder="../json/"):
     df = pd.json_normalize(all_data)
     print(f"\n [+] Generando Data Frame Pandas...")
     return df
+
+def profile_data(df):
+    print("\n [+] Exportando profiling en formato HTML...")
+    profile = ProfileReport(df, title="Profiling a datos del 1 de enero del 2024")
+    profile.to_file("../profiling/data_profiling.html")
     
