@@ -8,7 +8,7 @@ Este proyecto tiene como objetivo obtener datos de programas de televisión a tr
 ## Tecnologías Utilizadas
 
 - **Lenguaje**: Python
-- **Bibliotecas**: `requests`, `json`, `pandas`, `sqlite3`, `ydata_profiling`, `termcolor`, `pytest`, `termcolor`, `coverage`, `pytest-cov`
+- **Bibliotecas**: `requests`, `json`, `pandas`, `sqlite3`, `ydata_profiling`, `termcolor`, `pytest`, `coverage`, `pytest-cov`
 - **Base de Datos**: SQLite
 - **Formatos de Almacenamiento**: JSON, Parquet
 - **Pruebas**: Pruebas unitarias con pytest, coverage, y pytest-cov 
