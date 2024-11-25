@@ -6,6 +6,15 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignorar el entorno virtual completo
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Ignorar todos los archivos .DS_Store (macOS)
+.DS_Store
+
 # Distribution / packaging
 .Python
 build/

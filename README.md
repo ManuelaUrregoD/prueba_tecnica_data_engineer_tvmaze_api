@@ -1,9 +1,10 @@
-# prueba_tecnica_data_engineer_tvmaze_api
-Prueba técnica para Data Engineer que obtiene y procesa datos de TV shows de enero de 2024 desde la API de TVMaze, utilizando `requests`, `json`, `pandas` y `SQLite` para análisis y muestra de resultados.
+# PRUEBA TÉCNICA DATA INGINEER - TV MAZE API
+Prueba técnica para Data Engineer que consiste en diseñar y desarrollar una ETL que obtiene, transforma y carga datos de programas de televisión emitidos en enero de 2024 desde la API de TVMaze. Utilizando requests para la extracción, json y pandas para transformar y analizar los datos, y SQLite para su almacenamiento en un modelo optimizado, la ETL pasa por todas las etapas: recopilación de datos crudos, limpieza y perfilado, transformación en DataFrames estructurados, exportación en formato Parquet con compresión snappy, y carga en una base de datos para su posterior análisis y generación de resultados como el tiempo promedio de emisión, conteo de programas por género y dominios únicos de sitios oficiales.
+
 
 ## Descripción del Proyecto
 
-Este proyecto tiene como objetivo obtener datos de programas de televisión a través de la API de TVMaze, realizar un procesamiento de estos datos, y almacenarlos para análisis posterior. Los datos se recopilan, limpian y transforman, para luego ser almacenados en una base de datos SQLite y exportados a archivos en formato Parquet. Además, se genera un informe de perfilado de datos para conocer mejor la estructura y calidad de los mismos.
+Este proyecto se ejecuta a través de un entorno virtual que asegura un entorno aislado y controlado para manejar las dependencias necesarias. tiene como objetivo obtener datos de programas de televisión a través de la API de TVMaze, realizar un procesamiento de estos datos, y almacenarlos para análisis posterior. Los datos se recopilan, limpian y transforman, para luego ser almacenados en una base de datos SQLite y exportados a archivos en formato Parquet. Además, se genera un informe de perfilado de datos para conocer mejor la estructura y calidad de los mismos.
 
 ## Tecnologías Utilizadas
 
@@ -13,7 +14,6 @@ Este proyecto tiene como objetivo obtener datos de programas de televisión a tr
 - **Formatos de Almacenamiento**: JSON, Parquet
 - **Pruebas**: Pruebas unitarias con pytest, coverage, y pytest-cov 
 
-(Todas las dependencias estan ya incluidas en el entorno virtual, por lo que no es necesario descargarlas).
 
 ## Estructura del Proyecto
 
@@ -26,8 +26,7 @@ El proyecto tiene la siguiente estructura de directorios:
 - `profiling/`: Archivos del informe de perfilado de datos en formato HTML.
 - `src/`: Scripts de Python desarrollados para el proyecto.
 - `src/tests/`: Archivos de pruebas unitarias desarrolladas para validar el código.
-- `venv/`: Entorno virtual de Python.
-- requirements.txt: Archivo que contiene las dependencias y librerías necesarias para el proyecto.
+- requirements.txt: Archivo que contiene las dependencias y librerías necesarias para el proyecto en un entorno virtualizado. 
 
 
 ## Instalación y Ejecución
