@@ -8,9 +8,12 @@ Este proyecto tiene como objetivo obtener datos de programas de televisión a tr
 ## Tecnologías Utilizadas
 
 - **Lenguaje**: Python
-- **Bibliotecas**: `requests`, `json`, `pandas`, `sqlite3`, `ydata_profiling`, `termcolor`
+- **Bibliotecas**: `requests`, `json`, `pandas`, `sqlite3`, `ydata_profiling`, `termcolor`, `pytest`, `coverage`, `pytest-cov`
 - **Base de Datos**: SQLite
 - **Formatos de Almacenamiento**: JSON, Parquet
+- **Pruebas**: Pruebas unitarias con pytest, coverage, y pytest-cov 
+
+(Todas las dependencias estan ya incluidas en el entorno virtual, por lo que no es necesario descargarlas).
 
 ## Estructura del Proyecto
 
@@ -22,6 +25,7 @@ El proyecto tiene la siguiente estructura de directorios:
 - `model/`: Imagen del modelo de datos creado para almacenar la información.
 - `profiling/`: Archivos del informe de perfilado de datos en formato HTML.
 - `src/`: Scripts de Python desarrollados para el proyecto.
+- `src/tests/`: Archivos de pruebas unitarias desarrolladas para validar el código.
 - `venv/`: Entorno virtual de Python.
 - requirements.txt: Archivo que contiene las dependencias y librerías necesarias para el proyecto.
 
@@ -131,6 +135,37 @@ El modelo de datos fue diseñado para almacenar la información de los programas
 - **showGenre**: Relaciona los programas de televisión con sus géneros correspondientes.
 
 Una imagen del modelo de datos se encuentra en la carpeta `model/`.
+
+## Pruebas unitarias
+
+Se han desarrollado pruebas unitarias para validar el correcto funcionamiento del código, ubicadas en la carpeta `src/tests` Estas pruebas incluyen:
+
+- Prueba de get_series_data: Valida que la función pueda obtener y procesar correctamente la respuesta de la API.
+- Prueba de fetch_tv_shows_data: Valida la extracción de datos de varias fechas y asegura la integridad de los datos obtenidos.
+- Prueba de load_json_to_pandas_dataframe: Valida la carga de archivos JSON en un DataFrame de pandas.
+- Prueba de clean_data: Valida el proceso de limpieza de datos, incluyendo la eliminación de columnas irrelevantes y la transformación de valores categóricos.
+
+## Ejecución pruebas unitarias
+
+Para ejecutar las pruebas unitarias, siga los siguientes pasos:
+
+1. Navegar a la carpeta principal del proyecto:
+
+    ```bash
+    cd prueba_tecnica_data_engineer_tvmaze_api
+    ```
+
+2. Ejecutar las pruebas:
+
+    ```bash
+    pytest src/tests/
+    ```
+
+3. Generar un reporte de cobertura de pruebas:
+
+    ```bash
+    pytest --cov=src src/tests/
+    ```
 
 
 ## Contacto
